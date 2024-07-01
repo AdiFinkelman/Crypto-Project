@@ -49,7 +49,7 @@ Configure the following settings:
 
 ```python
 SECRET_KEY = "your-secret-key"
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1:5586"]
 ```
 
 ## API Endpoints
