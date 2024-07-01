@@ -3,7 +3,7 @@ Welcome to the backend of our comprehensive trading platform! This project provi
 
 ## Features
 
-- **Charting**: Generate and display advanced charts for analyzing market trends.
+- **Live Chart**: Generate and display advanced charts for analyzing market trends.
 - **Strategies:** Explain various trading strategies with detailed documentation.
 - **Individual Trades**: Execute trades manually through the platform.
 - **Trades Table:** View a table of all trades, including both open and closed trades.
