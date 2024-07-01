@@ -59,7 +59,7 @@ ALLOWED_HOSTS = ["localhost", "127.0.0.1:5586"]
 Retrieve a list of available coins from Binance.  
 **Params:** None
 
-**GET /binance/<coin>?timeframe=<timeframe>**  
+**GET /binance/<'coin'>?timeframe=<'timeframe'>**  
 Retrieve chart data for a given market symbol.  
 **Params:** 
 - `coin` (string): The market symbol for the coin.
@@ -84,21 +84,11 @@ Execute a manual trade.
 - `start_time` (string): The start time of the trade in `YYYY-MM-DD HH:MM:SS` format.
 - `bot_name` (string): The name of the bot executing the trade.
 
-### Trades by Bots
-**POST /trades/bot**  
-Submit a trade request for a trading bot.  
-**Body:** JSON payload with bot trading instructions.
-
 ### Coin Prices
 **GET /coins/{symbol}/price**  
 Retrieve the current price for a cryptocurrency.  
 **Params:** 
 - `symbol` (string): The market symbol for the coin.
-
-### RTL Support
-**GET /rtl/text**  
-Get RTL formatted text.  
-**Body:** JSON payload with text content.
 
 ### Strategies
 **GET /strategies**  
