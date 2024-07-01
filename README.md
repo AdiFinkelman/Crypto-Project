@@ -59,7 +59,7 @@ ALLOWED_HOSTS = ["localhost", "127.0.0.1:5586"]
 Retrieve a list of available coins from Binance.  
 **Params:** None
 
-**GET /binance/<coin>**  
+**GET /binance/<coin>?timeframe=<timeframe>**  
 Retrieve chart data for a given market symbol.  
 **Params:** 
 - `coin` (string): The market symbol for the coin.
