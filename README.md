@@ -30,7 +30,7 @@ To get started with the backend, follow these steps:
 
 2. **Set Up a Virtual Environment**
     ```bash
-   python -m venv venv
+   python3 -m venv venv    # On Windows use 'python3 -m venv venv'
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
@@ -41,7 +41,7 @@ To get started with the backend, follow these steps:
 
 4. **Start the Application**
    ```bash
-   python ./app.py
+   python3 ./app.py   # On Windows use 'python ./app.py'
    ```
 
 ## Configuration
